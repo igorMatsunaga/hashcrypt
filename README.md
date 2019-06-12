@@ -1,4 +1,5 @@
 # hashcrypt
+
 <!-- wp:tadv/classic-paragraph -->
 <p style="text-align: justify;">O hashcrypt é um script basico para criação de hash para palavras-chave, utilizando Python(bcrypt).</p>
 <p style="text-align: justify;">Hash de senha em Python com Bcrypt</p>
@@ -20,13 +21,19 @@
 
 <!-- wp:tadv/classic-paragraph -->
 <p style="text-align: justify;">O que é claramente diferente do nosso primeiro hash ... Se você não está familiarizado com hashing, você pode estar pensando neste ponto "Então, como eu comparo uma senha com uma senha com hash ?  <span>Quando o usuário quiser se autenticar no sistema, teremos </span><em>em mãos</em><span> a senha fornecida por ele na tela de login, mas não podemos compará-la diretamente ao valor armazenado no banco, pois o que está armazenado é o hash da senha. O serviço de autenticação deverá aplicar a função de hash sobre a senha fornecida pelo usuário e comparar o resultado com o que está armazenado no BD. Se o valor obtido for idêntico ao hash armazenado no banco de dados para aquele usuário, a autenticação ocorre com sucesso. Caso contrário, erro de autenticação.</span></p>
-<h3>Instalando o hashcrack</h3>
+<h3>Instalando o hashcrypt</h3>
 <!-- /wp:tadv/classic-paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>pip install –r requeriments.txt Utilizar o hashcrack
+<pre class="wp-block-code"><code>pip install –r requeriments.txt </code></pre>
+<!-- /wp:code -->
 
-python3 hashCrypt.py</code></pre>
+<!-- wp:heading {"level":3} -->
+<h3>Utilizar o hashcrypt</h3>
+<!-- /wp:heading -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>python3 hashCrypt.py</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:image {"id":3003} -->
